@@ -1,0 +1,113 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0; /* Remove default body margin */
+    padding: 20px 0; /* Add vertical padding to body, remove horizontal */
+    background-color: #e8f5e9; /* Light Greenish Background */
+    color: #333;
+    min-height: 100%; /* Ensure body takes at least full viewport height */
+    box-sizing: border-box; /* Include padding in height calculation */
+}
+
+#app-container {
+    max-width: 900px;
+    width: 90%; /* Keep responsive width */
+    margin: 0 auto; /* Center the container */
+    background-color: #ffffff;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Slightly softer shadow */
+    border: 1px solid #c8e6c9; /* Light green border */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #4CAF50; /* Main Green */
+    padding-bottom: 15px;
+}
+
+header h1 {
+    color: #2e7d32; /* Darker Green */
+    margin: 0;
+    font-size: 2em;
+}
+
+#script-content h2 {
+    color: #388e3c; /* Medium Green */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #a5d6a7; /* Lighter Green for H2 underline */
+    padding-bottom: 8px;
+    font-size: 1.6em;
+}
+
+#script-content h3 {
+    color: #1b5e20; /* Very Dark Green */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+#script-content p, 
+#script-content ul, 
+#script-content ol {
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: #424242; /* Dark Gray for text */
+}
+
+#script-content ul, 
+#script-content ol {
+    padding-left: 25px;
+}
+
+#script-content ul li, 
+#script-content ol li {
+    margin-bottom: 8px;
+}
+
+#script-content strong {
+    color: #0d47a1; /* Dark Blue for emphasis */
+    font-weight: bold;
+}
+
+#script-content em {
+    font-style: italic;
+    color: #555;
+}
+
+#gemini-creative-tip-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f1f8e9; /* Very Light Green Background for tip */
+    border-left: 5px solid #66bb6a; /* Medium Green border */
+    border-radius: 5px;
+}
+
+#gemini-creative-tip-container h3 {
+    margin-top: 0;
+    color: #33691e; /* Dark Olive Green */
+}
+
+#gemini-tip-text {
+    font-style: italic;
+    color: #4e342e; /* Brownish color for tip text */
+    min-height: 2.5em; /* Set a min-height to reduce layout shift (approx 1-2 lines) */
+    display: flex; /* Use flex to help vertically align text if it's shorter than min-height */
+    align-items: center; /* Vertically align text */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #a5d6a7; /* Lighter Green for footer top border */
+    font-size: 0.9em;
+    color: #555;
+}
